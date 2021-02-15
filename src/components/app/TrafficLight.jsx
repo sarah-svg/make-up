@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import { useEffect, useState } from 'react';
 
 import React from 'react';
@@ -15,7 +16,7 @@ const TrafficLights = () => {
   // eslint-disable-next-line no-console
   useEffect(() => console.log(stage), [stage]);
 
-  return <Display {...stage} onClick={() => setStage(stages[stage.next])} />;
+  return <div><title>Light</title><Display {...stage} onClick={() => setStage(stages[stage.next])} /></div>;
 };
 
 export default TrafficLights;
