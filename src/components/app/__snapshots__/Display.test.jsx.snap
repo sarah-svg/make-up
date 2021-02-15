@@ -6,7 +6,7 @@ exports[`App component renders App 1`] = `
     class="black-box"
   >
     <div
-      class="light red"
+      class="light inactive"
     />
     <div
       class="light inactive"

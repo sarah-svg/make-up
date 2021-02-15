@@ -16,7 +16,7 @@ Display.propTypes = {
   red: PropTypes.bool.isRequired,
   amber: PropTypes.bool.isRequired,
   green: PropTypes.bool.isRequired,
-  onClick: PropTypes.func.isRequired
+  onClick: PropTypes.func.isRequired,
 };
 
 export default Display;

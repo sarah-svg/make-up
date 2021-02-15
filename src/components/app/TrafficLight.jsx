@@ -12,6 +12,7 @@ const TrafficLights = () => {
   };
 
   const [stage, setStage] = useState(stages.stop);
+  // eslint-disable-next-line no-console
   useEffect(() => console.log(stage), [stage]);
 
   return <Display {...stage} onClick={() => setStage(stages[stage.next])} />;
